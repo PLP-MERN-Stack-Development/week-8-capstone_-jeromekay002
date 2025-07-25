@@ -50,3 +50,98 @@ Your project will be automatically submitted when you push to your GitHub Classr
 - [React Documentation](https://react.dev/)
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+
+
+## RealEase - real estate management system
+
+## project overview 
+### Features
+## 🔐 Authentication
+-Admin login & registration (JWT-based)
+
+- Roles: Admin, Landlord, Caretaker, Tenant
+
+## 🧑‍🤝‍🧑 Tenants/Caretakers Management
+- Add / edit / delete tenants
+
+- View authorized caretakers
+
+- Assign caretaker to building or units
+
+## 🏢 Landlord Management
+- View landlords
+
+- Assign properties
+
+## 🧾 Real-time Group Chat
+- Group chat between caretakers, tenants, admin
+
+- Socket.io-based messaging
+
+## 📄 Pages
+- Landing Page (Home, About, Services, Contact)
+
+- Admin Dashboard (multi-tabbed: Users, Chats, Tenants, etc.)
+
+- Login & Registration
+
+## Folder Structure (Frontend)
+
+real-estate-app/
+├── client/ (Vite + React + Tailwind)
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── pages/
+        │   ├── dashboard/
+        │   │   ├── AdminDashboard.jsx
+        │   │   ├── LandlordDashboard.jsx
+        │   │   └── DashboardLayout.jsx
+        │
+        ├── components/
+        │   ├── dashboard/
+        │   │   ├── Sidebar.jsx
+        │   │   ├── Topbar.jsx
+        │   │   ├── Table.jsx
+        │   │   ├── ProfileCard.jsx
+        │   │   └── StatCard.jsx
+        │   │   ├── layouts/
+        │   │   ├── routes/
+        │   │   ├── context/
+        │   │   ├── hooks/
+        │   │   ├── utils/
+        │   │   ├── App.jsx
+        │   │   └── main.jsx
+│   └── vite.config.js
+├── server/ (Express + MongoDB)
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   └── server.js
+├── README.md
+└── package.json
+
+
+## 🛠 Technologies Used
+
+- **MongoDB** – NoSQL Database
+- **Express.js** – Backend API
+- **React.js** – Frontend UI
+- **Node.js** – JavaScript runtime
+- **TailwindCSS** – Utility-first CSS
+- **Axios** – HTTP requests
+- **Mongoose** – MongoDB ODM
+
+---
+## 🤝 Contributors
+
+- **Jerome Kaloki** – Developer & Architect
+
+## 📍 Target Audience
+
+- Independent landlords
+- Real estate agencies
+- Property management companies
+- Kenyan landlords and caretaker
